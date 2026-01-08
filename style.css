@@ -99,7 +99,12 @@ body {
 @media screen and (max-width: 768px) {
   .view-image img {
     height: 50%;
-    width: 50%;
+    width: 60%;
     border-radius: 10px;
+  }
+
+   .nextPrevious #next, 
+  .nextPrevious #previous {
+    display: none;
   }
 }
